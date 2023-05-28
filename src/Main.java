@@ -1,4 +1,3 @@
-import data.ExpNeeded;
 import data.Experience;
 import data.MageAttributes;
 
@@ -9,12 +8,11 @@ public class Main {
         //Подгрузка классов-----------------------
         MageAttributes mageAttributes = new MageAttributes();
         Experience experience = new Experience();
-        ExpNeeded expAmount = new ExpNeeded();
         //----------------------------------------
 
         experience.saveLevelMain();
         System.out.println("Your Level is " + experience.loadLevelMain());
-        expAmount.setNeededExpMain();
+        experience.saveNeededExpMain();
         experience.loadLevelMain();
 
     }

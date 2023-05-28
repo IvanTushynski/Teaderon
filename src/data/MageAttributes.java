@@ -48,4 +48,13 @@ public class MageAttributes {
         printWriter.close();
     }
 
+    public void saveAttackMage() throws FileNotFoundException {
+        experience.loadLevelMain();
+        File file = new File("src/saves/attack");
+        PrintWriter printWriter = new PrintWriter(file);
+
+        printWriter.print(attackMage);
+        printWriter.close();
+    }
+
 }

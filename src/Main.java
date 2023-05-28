@@ -1,5 +1,5 @@
-import data.Experience;
-import data.MageAttributes;
+import data.player.Experience;
+import data.player.MageAttributes;
 
 import java.io.IOException;
 

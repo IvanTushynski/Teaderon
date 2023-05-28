@@ -1,4 +1,4 @@
-package data;
+package data.player;
 
 public class Resources {
 

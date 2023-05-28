@@ -1,6 +1,6 @@
-package data;
+package data.player;
 
-import data.Experience;
+import data.player.Experience;
 
 import java.io.File;
 import java.io.FileNotFoundException;

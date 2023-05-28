@@ -1,4 +1,4 @@
-package data;
+package data.player;
 
 import java.io.*;
 import java.util.ArrayList;
@@ -8,8 +8,8 @@ public class Experience {
 
     private int levelMain = 2;
 
-    private int expNeedMain;
-    private int expAmountMain;
+    //private int expNeedMain;
+    private int expAmountMain = 0;
 
     private int expNeedCraft;
     private int expAmountCraft;

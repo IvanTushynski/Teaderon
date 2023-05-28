@@ -16,7 +16,6 @@ public class Main {
         System.out.println("Your Level is " + experience.loadLevelMain());
         expAmount.setNeededExpMain();
         experience.loadLevelMain();
-        mageAttributes.saveHealth();
 
     }
 }

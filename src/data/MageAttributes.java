@@ -21,12 +21,30 @@ public class MageAttributes {
     public MageAttributes() throws FileNotFoundException {
     }
 
-    public void saveHealth() throws FileNotFoundException {
-
+    public void saveHealthMage() throws FileNotFoundException {
+        experience.loadLevelMain();
         File file = new File("src/saves/health");
         PrintWriter printWriter = new PrintWriter(file);
 
         printWriter.print(healthMage);
+        printWriter.close();
+    }
+
+    public void saveManaMage() throws FileNotFoundException {
+        experience.loadLevelMain();
+        File file = new File("src/saves/mana");
+        PrintWriter printWriter = new PrintWriter(file);
+
+        printWriter.print(manaMage);
+        printWriter.close();
+    }
+
+    public void saveDefenceMage() throws FileNotFoundException {
+        experience.loadLevelMain();
+        File file = new File("src/saves/defense");
+        PrintWriter printWriter = new PrintWriter(file);
+
+        printWriter.print(defenseMage);
         printWriter.close();
     }
 
